@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".seond">
+<androidx.cardview.widget.CardView
+    android:backgroundTint="#7c8388"
+    android:layout_marginTop="250dp"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/scannedDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:textColor="@color/white"
+        android:text="Scanned Data Placeholder" />
+
+    <TextView
+
+        android:id="@+id/formatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        android:text="Format Placeholder" />
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
